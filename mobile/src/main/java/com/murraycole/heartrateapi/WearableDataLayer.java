@@ -22,7 +22,7 @@ import java.util.Date;
 public class WearableDataLayer implements MessageApi.MessageListener{
     private static final String TAG = WearableDataLayer.class.getSimpleName();
 
-    private static final String SEND_KEY = "com.example.Data";
+    private static final String SEND_KEY = "com.example.data";
     private static final String SYNC_KEY = "/start/HistorySYNC";
 
     public static GoogleApiClient buildDataApiClient(Context context){
